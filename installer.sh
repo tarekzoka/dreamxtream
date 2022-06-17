@@ -6,7 +6,6 @@
 ###########################################
 #!/bin/sh
 #
-
 wget -O /tmp/dreamxtream_0.3-r2.0_mipsel.deb "https://github.com/tarekzoka/68/blob/main/enigma2-plugin-extensions-dreamxtream_0.3-r2.0_mipsel.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
