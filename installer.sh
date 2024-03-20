@@ -6,7 +6,8 @@
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/dreamxtream_0.3-r2.0_armhf.deb "https://github.com/tarekzoka/68/blob/main/dreamxtream_0.3-r2.0_armhf.deb?raw=true"
+wget -O /tmp/dreamxtream_0.3-r2.0_armhf.deb "https://github.com/tarekzoka/dreamxtream
+/blob/main/dreamxtream_0.3-r2.0_armhf.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
